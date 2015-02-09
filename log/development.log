@@ -5533,3 +5533,658 @@ Processing by ProductsController#new as HTML
   Rendered products/_form.html.erb (2.7ms)
   Rendered products/new.html.erb within layouts/application (4.5ms)
 Completed 200 OK in 96ms (Views: 94.5ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (2.8ms)
+  Rendered products/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 120ms (Views: 119.2ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:15:00 +0530
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:15:07 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3800ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2137ms
+  Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 97ms (Views: 96.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-02-09 17:20:05 +0530
+Processing by ProductsController#new as HTML
+Overwriting existing field _id in class Product.
+  Rendered products/_form.html.erb (4.1ms)
+  Rendered products/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 108ms (Views: 98.2ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+Processing by ProductsController#new as HTML
+Overwriting existing field _id in class Product.
+  Rendered products/_form.html.erb (2.5ms)
+  Rendered products/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 117ms (Views: 106.8ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:23:56 +0530
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:24:09 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9iM5uKSgU09yRUbYoP4QAdOLep8U6y6gixlh4PPlwp2w3W17c4zg03WguKSqyUDKiFWUr77qAEg+RscwAruDYA==", "product"=>{"name"=>"Bag", "description"=>" small bag"}, "commit"=>"Create Product"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5613ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3861ms
+  MOPED: 127.0.0.1:27017 INSERT       database=userapp_development collection=products documents=[{"version"=>1, "name"=>"Bag", "description"=>" small bag", "_id"=>"bag", "useremail"=>"nijojoseph@acube.co", "updated_at"=>2015-02-09 11:54:09 UTC, "created_at"=>2015-02-09 11:54:09 UTC}] flags=[]
+                         COMMAND      database=userapp_development command={:getlasterror=>1, :w=>1} runtime: 302.5515ms
+Redirected to http://localhost:3000/products/bag
+Completed 302 Found in 572ms
+
+
+Started GET "/products/bag" for 127.0.0.1 at 2015-02-09 17:24:09 +0530
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"bag"}
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"_id"=>"bag"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5423ms
+  Rendered products/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `user' for #<Product:0xabce968>):
+    12: 
+    13: <p>
+    14:   <strong>User:</strong>
+    15:   <%= @product.user %>
+    16: </p>
+    17: 
+    18: <%= link_to 'Edit', edit_product_path(@product) %> |
+  app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb___683213470_90061550'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.9ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (40.7ms)
+
+
+Started GET "/products/bag" for 127.0.0.1 at 2015-02-09 17:24:46 +0530
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"bag"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"_id"=>"bag"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3180ms
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 93ms (Views: 90.7ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:24:46 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:24:46 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:24:46 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:46 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:24:47 +0530
+
+
+Started GET "/products/bag" for 127.0.0.1 at 2015-02-09 17:27:51 +0530
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"bag"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5211ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"_id"=>"bag"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3835ms
+  Rendered products/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    12: 
+    13: <p>
+    14:   <strong>User:</strong>
+    15:   <%= @product.user.email %>
+    16: </p>
+    17: 
+    18: <%= link_to 'Edit', edit_product_path(@product) %> |
+  app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb___683213470_98026410'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:27:57 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9iM5uKSgU09yRUbYoP4QAdOLep8U6y6gixlh4PPlwp2w3W17c4zg03WguKSqyUDKiFWUr77qAEg+RscwAruDYA==", "product"=>{"name"=>"Bag", "description"=>" small bag"}, "commit"=>"Create Product"}
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9521ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 96.6171ms
+Completed 500 Internal Server Error in 105ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (46.1ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:29:21 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9iM5uKSgU09yRUbYoP4QAdOLep8U6y6gixlh4PPlwp2w3W17c4zg03WguKSqyUDKiFWUr77qAEg+RscwAruDYA==", "product"=>{"name"=>"Bag", "description"=>" small bag"}, "commit"=>"Create Product"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5992ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5855ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5772ms
+Completed 500 Internal Server Error in 20ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (37.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:29:42 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4147ms
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 94ms (Views: 93.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-02-09 17:29:45 +0530
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (2.7ms)
+  Rendered products/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 113ms (Views: 112.7ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:29:53 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ELHsM/W42WvGLHlNykNRjNGz6F5lF0+jNuVdEICyHT9WT7jwIpRq98HJhzHAdAFHim0Gbs8WYUuDuvvAcexcwg==", "product"=>{"name"=>"Bag", "description"=>"big bag"}, "commit"=>"Create Product"}
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5474ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4612ms
+Completed 500 Internal Server Error in 6ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (36.7ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:30:54 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ELHsM/W42WvGLHlNykNRjNGz6F5lF0+jNuVdEICyHT9WT7jwIpRq98HJhzHAdAFHim0Gbs8WYUuDuvvAcexcwg==", "product"=>{"name"=>"Bag", "description"=>"big bag"}, "commit"=>"Create Product"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4246ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3620ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6375ms
+Completed 500 Internal Server Error in 17ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (38.2ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:31:09 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ELHsM/W42WvGLHlNykNRjNGz6F5lF0+jNuVdEICyHT9WT7jwIpRq98HJhzHAdAFHim0Gbs8WYUuDuvvAcexcwg==", "product"=>{"name"=>"Bag", "description"=>"big bag"}, "commit"=>"Create Product"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6465ms
+Completed 500 Internal Server Error in 20ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (38.6ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:31:58 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ELHsM/W42WvGLHlNykNRjNGz6F5lF0+jNuVdEICyHT9WT7jwIpRq98HJhzHAdAFHim0Gbs8WYUuDuvvAcexcwg==", "product"=>{"name"=>"Bag", "description"=>"big bag"}, "commit"=>"Create Product"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5080ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4354ms
+Completed 500 Internal Server Error in 21ms
+
+NoMethodError (undefined method `emai' for #<User:0xb3eb4ebc>):
+  app/controllers/products_controller.rb:28:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (36.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:32:15 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ELHsM/W42WvGLHlNykNRjNGz6F5lF0+jNuVdEICyHT9WT7jwIpRq98HJhzHAdAFHim0Gbs8WYUuDuvvAcexcwg==", "product"=>{"name"=>"Bag", "description"=>"big bag"}, "commit"=>"Create Product"}
+Overwriting existing field _id in class Product.
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6779ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6473ms
+Completed 500 Internal Server Error in 24ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'useremail' which is not allowed on the model Product.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Product#useremail= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/products_controller.rb:30:in `block in create'
+  app/controllers/products_controller.rb:29:in `create'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.8ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4506ms
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 99ms (Views: 98.6ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:27 +0530
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:32:34 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4993ms
+  Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 100ms (Views: 99.5ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:35 +0530
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-02-09 17:32:36 +0530
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (2.0ms)
+  Rendered products/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 82ms (Views: 81.6ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-02-09 17:32:41 +0530
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CBaP/EUQ3uIV0DTp3Yvmu0w1p0xIjWe3xRErAqDDis9O6Ns/kjxtfhI1ypXXvLZwF+tJfOKMSV9wTo3SUZ3LMg==", "product"=>{"name"=>"Big Bag", "description"=>"small bag"}, "commit"=>"Create Product"}
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5092ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"$query"=>{"_id"=>"big-bag", "$or"=>[{"version"=>1}, {"version"=>nil}]}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6978ms
+  MOPED: 127.0.0.1:27017 INSERT       database=userapp_development collection=products documents=[{"version"=>1, "name"=>"Big Bag", "description"=>"small bag", "_id"=>"big-bag", "user_id"=>BSON::ObjectId('54d33f2441637518e8000000'), "updated_at"=>2015-02-09 12:02:41 UTC, "created_at"=>2015-02-09 12:02:41 UTC}] flags=[]
+                         COMMAND      database=userapp_development command={:getlasterror=>1, :w=>1} runtime: 0.5293ms
+Redirected to http://localhost:3000/products/big-bag
+Completed 302 Found in 10ms
+
+
+Started GET "/products/big-bag" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"big-bag"}
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={"_id"=>"big-bag"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4281ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5726ms
+  Rendered products/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 85ms (Views: 83.7ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:32:42 +0530
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:32:57 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4249ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3348ms
+  Rendered products/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 89ms (Views: 88.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:33:34 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4304ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3897ms
+  Rendered products/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    17:       <tr>
+    18:         <td><%= product.name %></td>
+    19:         <td><%= product.description %></td>
+    20:         <td><%= product.user.email %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb__544448189__636371298'
+  app/views/products/index.html.erb:16:in `_app_views_products_index_html_erb__544448189__636371298'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:35:14 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5773ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5483ms
+  Rendered products/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    17:       <tr>
+    18:         <td><%= product.name %></td>
+    19:         <td><%= product.description %></td>
+    20:         <td><%= product.try(:user).email %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb__544448189_106781310'
+  app/views/products/index.html.erb:16:in `_app_views_products_index_html_erb__544448189_106781310'
+
+
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.8ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /home/acube/.rvm/gems/ruby-2.2.0@vendor_portal/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (41.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+Processing by ProductsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4745ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=products selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4331ms
+  MOPED: 127.0.0.1:27017 QUERY        database=userapp_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('54d33f2441637518e8000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5323ms
+  Rendered products/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 104ms (Views: 103.5ms)
+
+
+Started GET "/assets/products-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/uesertypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/application-41bce366a03592585280e4e40f4c9429.css?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/uesrtypes-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/scaffolds-28df696a692de5c992425efec3a6b98c.css?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/uesrtypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/products-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/uesertypes-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for 127.0.0.1 at 2015-02-09 17:35:57 +0530
