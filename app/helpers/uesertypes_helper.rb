@@ -1,0 +1,2 @@
+module UesertypesHelper
+end

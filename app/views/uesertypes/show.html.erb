@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @uesertype.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @uesertype.description %>
+</p>
+
+<%= link_to 'Edit', edit_uesertype_path(@uesertype) %> |
+<%= link_to 'Back', uesertypes_path %>
