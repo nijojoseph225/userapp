@@ -11,7 +11,7 @@
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
   <dd><%= @product.description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= @product.try(:user).try(email) %></dd>
+  <dd><%= @product.try(:user).try(:firstname) %></dd>
 </dl>
 
 
@@ -39,7 +39,7 @@
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
   <dd><%= version.description %></dd>
 	<dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= version.try(:user).try(email) %></dd>
+  <dd><%= version.try(:user).try(:firstname)  %></dd>
 
 </dl>
 

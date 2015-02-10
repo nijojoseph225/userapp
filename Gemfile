@@ -51,5 +51,7 @@ group :development, :test do
 	gem "twitter-bootstrap-rails"
 	gem 'simple_form'
 
+	gem 'will_paginate_mongoid'
+
 end
 

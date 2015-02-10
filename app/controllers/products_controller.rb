@@ -4,7 +4,8 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+   # @products = Product.all
+		@products = Product.paginate(:page => params[:page], :per_page =>4)
   end
 
   # GET /products/1
@@ -25,7 +26,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
-		@product.useremail=current_user.email
+		#@product.useremail=current_user.email
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
