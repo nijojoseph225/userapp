@@ -46,6 +46,9 @@ group :development, :test do
 	gem 'devise'
 	gem 'mongoid-versioning', github: 'pramodgmenon/mongoid-versioning', branch: 'with_id'
 	gem "mongoid-paperclip", :require => "mongoid_paperclip"
+	
+	gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+	gem "twitter-bootstrap-rails"
 	gem 'simple_form'
 
 end

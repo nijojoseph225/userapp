@@ -7,8 +7,8 @@ class Product
   field :name, type: String
   field :description, type: String
 	field :_id, type: String, default: ->{ name.to_s.parameterize }
+	#field :useremail,type: String
 	field :user_id,type: String
-
 
 #	has_mongoid_attached_file :photo,
    # :url => "/system/attachments/:id/:style/:basename.:extension", 
@@ -25,6 +25,6 @@ class Product
 	validates :name, :presence => true
 	validates :description, :presence => true
 	#validates_attachment_content_type :photo, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
-
-	belongs_to :user
+	belongs_to : user
+	
 end
